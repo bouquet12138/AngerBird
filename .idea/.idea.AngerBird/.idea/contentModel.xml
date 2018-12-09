@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\xiaohan\.Rider2018.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\xiaohan\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\xiaohan\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AngerBird.1014246439.00" t="ExcludeRecursive" />
+    <e p="D:\unity_workspace\AngerBird" t="IncludeRecursive">
+      <e p="AngerBird.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="base" t="Include">
+            <e p="BackGroundColor.cs" t="Include" />
+            <e p="BackGroundMusic.cs" t="Include" />
+            <e p="CameraVary.cs" t="Include" />
+            <e p="GameCursor.cs" t="Include" />
+            <e p="GameLevelUtil.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="LoadLevel.cs" t="Include" />
+            <e p="VoiceController.cs" t="Include" />
+          </e>
+          <e p="BeginningStore.cs" t="Include" />
+          <e p="birds" t="Include">
+            <e p="Bird.cs" t="Include" />
+            <e p="BirdAnim.cs" t="Include" />
+            <e p="BlackBird.cs" t="Include" />
+            <e p="BlueBird.cs" t="Include" />
+            <e p="CloneBlueBird.cs" t="Include" />
+            <e p="ExplosionEgg.cs" t="Include" />
+            <e p="GreenBird.cs" t="Include" />
+            <e p="WhiteBird.cs" t="Include" />
+            <e p="WhiteBirdAnim.cs" t="Include" />
+            <e p="YellowBird.cs" t="Include" />
+          </e>
+          <e p="block" t="Include">
+            <e p="Block.cs" t="Include" />
+            <e p="RollingBlock.cs" t="Include" />
+          </e>
+          <e p="CameraMonitor.cs" t="Include" />
+          <e p="effect" t="Include">
+            <e p="Bomb.cs" t="Include" />
+            <e p="Boom.cs" t="Include" />
+            <e p="LittleBoom.cs" t="Include" />
+          </e>
+          <e p="Environment.cs" t="Include" />
+          <e p="gameUi" t="Include">
+            <e p="Lose.cs" t="Include" />
+            <e p="PausePanel.cs" t="Include" />
+            <e p="Score.cs" t="Include" />
+            <e p="Win.cs" t="Include" />
+          </e>
+          <e p="level" t="Include">
+            <e p="Back.cs" t="Include" />
+            <e p="GridLayoutManager.cs" t="Include" />
+            <e p="LevelBackGround.cs" t="Include" />
+            <e p="LevelUi.cs" t="Include" />
+            <e p="MapPanelManager.cs" t="Include" />
+            <e p="MapSelect.cs" t="Include" />
+          </e>
+          <e p="LoadStartScene.cs" t="Include" />
+          <e p="Path.cs" t="Include" />
+          <e p="pig" t="Include">
+            <e p="Pig.cs" t="Include" />
+            <e p="PigAnim.cs" t="Include" />
+          </e>
+          <e p="ScreenAdaptation.cs" t="Include" />
+          <e p="startGameScene" t="Include">
+            <e p="AllBird.cs" t="Include" />
+            <e p="BirdFly.cs" t="Include" />
+            <e p="LoadingBack.cs" t="Include" />
+            <e p="Quit.cs" t="Include" />
+            <e p="SetBt.cs" t="Include" />
+            <e p="SetPanel.cs" t="Include" />
+            <e p="StartGame.cs" t="Include" />
+          </e>
+          <e p="ui" t="Include">
+            <e p="MyUI.cs" t="Include" />
+            <e p="PercentUi.cs" t="Include" />
+          </e>
+          <e p="utils" t="Include">
+            <e p="AudioUtil.cs" t="Include" />
+            <e p="PlayerPrefUtil.cs" t="Include" />
+            <e p="SceneLoadUtil.cs" t="Include" />
+          </e>
+          <e p="varia" t="Include">
+            <e p="Balloon.cs" t="Include" />
+            <e p="BalloonGroup.cs" t="Include" />
+            <e p="Gem.cs" t="Include" />
+            <e p="Rubber.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
