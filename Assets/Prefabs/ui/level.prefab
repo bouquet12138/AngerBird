@@ -96,8 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c877287b13b23c4ea43d872ed24b391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelected: 0
   mapIndex: 0
-  levelBg: {fileID: 21300034, guid: dcce69bd9940356488017aa93381c324, type: 3}
+  levelBg: {fileID: 21300018, guid: dcce69bd9940356488017aa93381c324, type: 3}
   starNone: {fileID: 21300038, guid: dcce69bd9940356488017aa93381c324, type: 3}
   starOne: {fileID: 21300032, guid: dcce69bd9940356488017aa93381c324, type: 3}
   starTwo: {fileID: 21300022, guid: dcce69bd9940356488017aa93381c324, type: 3}
@@ -316,5 +317,5 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 57, y: 57}
+  m_SizeDelta: {x: 42, y: 42}
   m_Pivot: {x: 0.5, y: 0.5}

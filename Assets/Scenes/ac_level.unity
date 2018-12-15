@@ -160,7 +160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300034, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!114 &80271294
 MonoBehaviour:
@@ -294,7 +293,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300018, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!114 &286463895
 MonoBehaviour:
@@ -435,7 +433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300012, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!114 &312116324
 MonoBehaviour:
@@ -670,7 +667,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300018, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!114 &585610414
 MonoBehaviour:
@@ -868,12 +864,12 @@ Prefab:
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 80
+      value: -314
       objectReference: {fileID: 0}
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 48.5
+      value: -114.5
       objectReference: {fileID: 0}
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
@@ -888,22 +884,22 @@ Prefab:
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224121005596685192, guid: 06a3a8271145d964bb7808d4fe1b7a52,
         type: 2}
@@ -1045,7 +1041,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300034, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!114 &1329290923
 MonoBehaviour:
@@ -1118,7 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b632dc24dd23124e9c24b228e33755f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapSelectPrefab: {fileID: 114118782413456858, guid: e06cf4a9d72847d46a4114633820c640,
+  mapSelectPrefab: {fileID: 1427203299803190, guid: e06cf4a9d72847d46a4114633820c640,
     type: 2}
   comeSoonPrefab: {fileID: 1102771092395886, guid: 9a04e07d823e5874abd91800a785ab39,
     type: 2}
@@ -1131,7 +1126,6 @@ MonoBehaviour:
   - {fileID: 21300012, guid: db958d2ecfa593341b8ced6624a6f23d, type: 3}
   - {fileID: 21300022, guid: db958d2ecfa593341b8ced6624a6f23d, type: 3}
   needStars: 000000000a000000140000001e00000028000000320000003c000000
-  mapLevelNums: 18000000180000001800000018000000180000001800000018000000
 --- !u!114 &1513134515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,10 +1208,10 @@ MonoBehaviour:
   useYScale: 1
   xScale: 0
   useXScale: 0
-  yPosition: 0
-  useYPosition: 0
-  xPosition: 0
-  useXPosition: 0
+  yPosition: -0.4
+  useYPosition: 1
+  xPosition: -0.42
+  useXPosition: 1
 --- !u!114 &1784583675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1302,7 +1296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300012, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!1 &1970042140
 GameObject:
@@ -1351,7 +1344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backSprite: {fileID: 21300012, guid: dcce69bd9940356488017aa93381c324, type: 3}
-  levelNum: 40
   levelUi: {fileID: 114173459606221484, guid: 75327cf2b92c0634eb6f3f4dc7498837, type: 2}
 --- !u!114 &1970042143
 MonoBehaviour:
@@ -1577,6 +1569,6 @@ MonoBehaviour:
   uiNormalCursor: {fileID: 2800000, guid: a80aa7ce1844679428b431cb8ca62c51, type: 3}
   uiDownCursor: {fileID: 2800000, guid: 865ed87cad9232b48af3cf1b66fdff08, type: 3}
   isUi: 1
-  normalCursor: {fileID: 2800000, guid: 811eb00e821412f43989de027b7a90da, type: 3}
-  downCursor: {fileID: 2800000, guid: 0b935ff0f0433004297cfbcfc8cd73e5, type: 3}
+  normalCursor: {fileID: 2800000, guid: a80aa7ce1844679428b431cb8ca62c51, type: 3}
+  downCursor: {fileID: 2800000, guid: 865ed87cad9232b48af3cf1b66fdff08, type: 3}
   cm: 0

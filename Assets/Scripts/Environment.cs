@@ -17,9 +17,6 @@ public class Environment : MonoBehaviour
     public GameObject brickPrefab;
     public GameObject prospectPrefab; //前景草
 
-    public static int DEFAULT_X_GRID = 20; //默认是20个网格
-    public static int MAX_GRID_NUM = 30; //最大网格数
-
     /// <summary>
     /// 唤醒的时候
     /// </summary>
@@ -57,15 +54,19 @@ public class Environment : MonoBehaviour
         if (prefab == null)
             return; //为空直接返回
 
+        float cameraStartX = xGridNum / 2 + CameraVary.MIN_X;
+
         float startX = 0; //开始的X位置
         if (_parent.GetComponent<CameraMonitor>() != null)
         {
-            startX = _parent.GetComponent<CameraMonitor>().movePercent * (-xGridNum / 4);
+            startX = _parent.GetComponent<CameraMonitor>().movePercent * (-xGridNum / 4 - cameraStartX);
         }
 
-        float maxXGrid = Math.Max(MAX_GRID_NUM, xGridNum * 2f);
+
+        float maxXGrid = Math.Max((CameraVary.MAX_X - CameraVary.MIN_X) + xGridNum / 2, xGridNum * 2f);
+
         float width = prefab.GetComponent<Renderer>().bounds.size.x;
-        float x = (width - maxXGrid + xGridNum / 2) / 2 + startX;
+        float x = -maxXGrid / 2 + xGridNum / 4 + width / 2 + startX + cameraStartX;
         float y = prefab.transform.position.y; //y的位置
         float z = prefab.transform.position.z;
 

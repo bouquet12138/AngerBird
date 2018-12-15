@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class LevelUi : MonoBehaviour
 {
-    private bool isSelected; //是否选中
+    public bool isSelected; //是否选中
     private int nowIndex; //关卡所在索引
     [HideInInspector] public int mapIndex; //它所在的地图索引
 

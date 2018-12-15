@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\xiaohan\.Rider2018.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\xiaohan\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\xiaohan\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AngerBird.1014246439.00" t="ExcludeRecursive" />
-    <e p="D:\unity_workspace\AngerBird" t="IncludeRecursive">
+    <e p="C:\Users\xiaohan\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AngerBird.-1735540791.00" t="ExcludeRecursive" />
+    <e p="D:\workSpace\unityWorkSpace\AngerBird" t="IncludeRecursive">
       <e p="AngerBird.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -19,7 +18,6 @@
             <e p="LoadLevel.cs" t="Include" />
             <e p="VoiceController.cs" t="Include" />
           </e>
-          <e p="BeginningStore.cs" t="Include" />
           <e p="birds" t="Include">
             <e p="Bird.cs" t="Include" />
             <e p="BirdAnim.cs" t="Include" />
@@ -44,9 +42,11 @@
           </e>
           <e p="Environment.cs" t="Include" />
           <e p="gameUi" t="Include">
+            <e p="BeginningStore.cs" t="Include" />
             <e p="Lose.cs" t="Include" />
             <e p="PausePanel.cs" t="Include" />
             <e p="Score.cs" t="Include" />
+            <e p="Store.cs" t="Include" />
             <e p="Win.cs" t="Include" />
           </e>
           <e p="level" t="Include">
@@ -63,7 +63,6 @@
             <e p="Pig.cs" t="Include" />
             <e p="PigAnim.cs" t="Include" />
           </e>
-          <e p="ScreenAdaptation.cs" t="Include" />
           <e p="startGameScene" t="Include">
             <e p="AllBird.cs" t="Include" />
             <e p="BirdFly.cs" t="Include" />
@@ -85,8 +84,10 @@
           <e p="varia" t="Include">
             <e p="Balloon.cs" t="Include" />
             <e p="BalloonGroup.cs" t="Include" />
+            <e p="Dice.cs" t="Include" />
             <e p="Gem.cs" t="Include" />
             <e p="Rubber.cs" t="Include" />
+            <e p="TNT.cs" t="Include" />
           </e>
         </e>
       </e>

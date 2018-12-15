@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using birds;
 using utils;
 using UnityEngine;
 
@@ -12,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     private float allScore; //总成绩
 
-    public bool gameIsOver; //比赛是否结束
+    [HideInInspector] public bool gameIsOver; //比赛是否结束
     private GameObject winUi; //胜利的UI
     private GameObject loseUi; //失败的UI
 
@@ -83,12 +84,14 @@ public class GameManager : MonoBehaviour
         {
             if (i == 0)
             {
+                birds[i].TriggerCollider.enabled = true; //触发碰撞器启用
                 birds[i].Ready();
                 birds[i].springJoint2D.enabled = true; //启用
                 birds[i].enabled = true; //可用
             }
             else
             {
+                birds[i].TriggerCollider.enabled = false; //触发碰撞器禁用
                 birds[i].springJoint2D.enabled = false; //启用
                 birds[i].enabled = false; //可用
             }
@@ -100,6 +103,9 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void NextBird()
     {
+        if (gameIsOver) //游戏结束就返回
+            return;
+
         if (birds.Count > 0)
         {
             print("GameManager 移除第一只小鸟 ");
@@ -126,6 +132,27 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 判断是否胜利
+    /// </summary>
+    public void IsSuccess()
+    {
+        if (!gameIsOver) //没有游戏结束
+        {
+            if (pigs.Count <= 0)
+            {
+                gameIsOver = true; //游戏结束
+                AudioUtil.sInstance.AudioPlay(birdWinAudio); //播放小鸟胜利音乐
+                StartCoroutine("ShowBird"); //开启协程
+            }
+        }
+    }
+
+
+    /// <summary>
+    /// 展示小鸟
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator ShowBird()
     {
         if (birds.Count > 0)

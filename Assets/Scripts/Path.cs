@@ -2,6 +2,7 @@
 
 public class Path : MonoBehaviour
 {
+    private int pathId = 0; //路径id
     public GameObject path1, path2, path3; //路径1 路径2 路径3
 
     /// <summary>
@@ -29,13 +30,15 @@ public class Path : MonoBehaviour
     /// </summary>
     /// <param name="pathId">路径id</param>
     /// <param name="position">位置</param>
-    public void AddPath(int pathId, Vector3 position)
+    public void AddPath(Vector3 position)
     {
+        pathId++;
         // AddEmptyPath(); //添加一个空路径
         if (pathId % 2 == 0)
         {
             GameObject gameObject = Instantiate(path1, position, Quaternion.identity); //生成路径1
             gameObject.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
+            pathId = 0; //归零 
         }
         else
         {

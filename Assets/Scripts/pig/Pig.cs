@@ -64,6 +64,18 @@ public class Pig : MonoBehaviour
     }
 
     /// <summary>
+    /// 实时更新
+    /// </summary>
+    private void Update()
+    {
+        if (transform.position.y < -5)
+        {
+            Dead(); //小猪死亡
+        }
+    }
+
+
+    /// <summary>
     /// 小猪死掉了
     /// </summary>
     public void Dead()

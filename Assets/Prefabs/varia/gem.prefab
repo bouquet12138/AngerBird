@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 5000
   addScoreObject: {fileID: 1470497052364130, guid: e45cb45dbd6100f488cdbc148ced5b65,
     type: 2}
 --- !u!212 &212994876515942654

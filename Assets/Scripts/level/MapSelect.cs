@@ -23,10 +23,10 @@ public class MapSelect : MonoBehaviour
 
     private void Awake()
     {
-        lockImg = transform.Find("lock").gameObject; //锁对象
-        stars = transform.Find("stars").gameObject; //星星对象
-        needStarsText = transform.Find("lock").Find("needStarsCount").GetComponent<Text>(); //得到需要星星数的文本
-        bgImage = GetComponent<Image>();
+        lockImg = transform.GetChild(1).Find("lock").gameObject; //锁对象
+        stars = transform.GetChild(1).Find("stars").gameObject; //星星对象
+        needStarsText = lockImg.transform.Find("needStarsCount").GetComponent<Text>(); //得到需要星星数的文本
+        bgImage = transform.GetChild(0).GetComponent<Image>(); //背景图
         hasStarsCount = stars.transform.Find("starsCount").GetComponent<Text>(); //得到显示星星数的文本
     }
 
