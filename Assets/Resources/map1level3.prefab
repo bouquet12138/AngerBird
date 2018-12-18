@@ -674,7 +674,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4653830138175668}
-  - component: {fileID: 114466211924999338}
   m_Layer: 0
   m_Name: games
   m_TagString: Untagged
@@ -7766,9 +7765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c5ae33243a0e84bbcb50ed86cf7bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
-  path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
-  path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
+  Path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
+  Path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
+  Path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
 --- !u!114 &114097476398198772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7975,6 +7974,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114141507824992034
 MonoBehaviour:
@@ -8002,6 +8002,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   skillAudio: {fileID: 8300000, guid: 5b70f9f1580c6a94da81369a2a64dec7, type: 3}
 --- !u!114 &114144172800540584
@@ -8205,6 +8206,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   blackBoom: {fileID: 1593533978812462, guid: 97fafe91a84451f4d93bbbc379a7d9ed, type: 2}
   littleBlackBoom: {fileID: 1233847258735152, guid: f5d6b4d575e2f8743a4e67c7ad5d4999,
@@ -8471,6 +8473,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   blackBoom: {fileID: 1593533978812462, guid: 97fafe91a84451f4d93bbbc379a7d9ed, type: 2}
   littleBlackBoom: {fileID: 1233847258735152, guid: f5d6b4d575e2f8743a4e67c7ad5d4999,
@@ -8892,18 +8895,6 @@ MonoBehaviour:
   gameIsOver: 0
   originPos: {x: 0, y: 0, z: 0}
   birdWinAudio: {fileID: 8300000, guid: 87ab9c925151f9345b5dd274a12d3fe8, type: 3}
---- !u!114 &114466211924999338
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1333397462996366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c59c024240259458de81aa51912372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveX: 0
 --- !u!114 &114466370265368582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9397,6 +9388,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   blackBoom: {fileID: 1593533978812462, guid: 97fafe91a84451f4d93bbbc379a7d9ed, type: 2}
   littleBlackBoom: {fileID: 1233847258735152, guid: f5d6b4d575e2f8743a4e67c7ad5d4999,

@@ -287,10 +287,13 @@ namespace birds
 
             if (CurrentState == BIRD_FLY || CurrentState == BIRD_HAS_SHOW_SKILL) //如果小鸟正在飞或者展示了技能了
             {
-                CurrentState = BIRD_COLLIDER; //小鸟状态变为碰撞
-                CameraVary.sInstance.BirdUse = false; //小鸟结束使用了 用户可以滑动了
-                GameCursor.sInstance.isUi = false; //变回正常手
-                birdAnim.hurt(); //受伤了
+                if (other.gameObject.tag != "Player")
+                {
+                    CurrentState = BIRD_COLLIDER; //小鸟状态变为碰撞
+                    CameraVary.sInstance.BirdUse = false; //小鸟结束使用了 用户可以滑动了
+                    GameCursor.sInstance.isUi = false; //变回正常手
+                    birdAnim.hurt(); //受伤了
+                }
             }
 
             if (other.relativeVelocity.magnitude > 6) //相对速度大于8
@@ -326,6 +329,15 @@ namespace birds
         public void Ready()
         {
             birdAnim.Ready(); //准备就绪
+        }
+
+        /// <summary>
+        /// 小鸟是否是空闲状态
+        /// </summary>
+        /// <returns></returns>
+        public bool IsIdle()
+        {
+            return CurrentState == BIRD_IDLE; //小鸟是否空闲
         }
     }
 }

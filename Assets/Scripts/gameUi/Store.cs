@@ -1,17 +1,17 @@
-﻿using UnityEngine;
+﻿using utils;
+using UnityEngine;
 
 namespace gameUi
 {
-	public class Store : MonoBehaviour {
-
-		// Use this for initialization
-		void Start () {
-		
-		}
-	
-		// Update is called once per frame
-		void Update () {
-		
-		}
-	}
+    public class Store : MonoBehaviour
+    {
+        /// <summary>
+        /// 唤醒的时候
+        /// </summary>
+        private void Awake()
+        {
+            int nowMap = PlayerPrefUtil.GetNowMap(); //当前地图
+            transform.GetChild(nowMap).gameObject.SetActive(true); //激活游戏介绍
+        }
+    }
 }

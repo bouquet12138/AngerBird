@@ -58,7 +58,7 @@ public class Win : MonoBehaviour
     public void Retry()
     {
         Time.timeScale = 1; // timeScale 恢复正常
-        SceneLoadUtil.LoadGameScene(); //重新加载自己 
+        SceneLoadUtil.ReLoadGameScene(); //重新加载自己 
     }
 
 

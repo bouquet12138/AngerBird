@@ -125,7 +125,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.83
+  m_Radius: 1
 --- !u!95 &95321299194111734
 Animator:
   serializedVersion: 3
@@ -182,6 +182,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   skillAudio: {fileID: 8300000, guid: 5b70f9f1580c6a94da81369a2a64dec7, type: 3}
 --- !u!212 &212910038741078998

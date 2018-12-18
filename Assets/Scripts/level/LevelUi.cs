@@ -84,7 +84,14 @@ public class LevelUi : MonoBehaviour
         if (isSelected)
         {
             PlayerPrefUtil.SetNowLevel(nowIndex); //设置当前关卡
-            SceneLoadUtil.LoadGameScene(); //加载游戏场景
+            if (nowIndex == 0)
+            {
+                SceneLoadUtil.LoadStoreScene(); //加载故事场景
+            }
+            else
+            {
+                SceneLoadUtil.LoadGameScene(); //加载游戏场景
+            }
         }
     }
 }

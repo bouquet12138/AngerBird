@@ -2,8 +2,8 @@
 
 public class Path : MonoBehaviour
 {
-    private int pathId = 0; //路径id
-    public GameObject path1, path2, path3; //路径1 路径2 路径3
+    private int mPathId = 0; //路径id
+    public GameObject Path1, Path2, Path3; //路径1 路径2 路径3
 
     /// <summary>
     /// 移除第一个孩子
@@ -28,31 +28,31 @@ public class Path : MonoBehaviour
     /// <summary>
     /// 添加路径
     /// </summary>
-    /// <param name="pathId">路径id</param>
-    /// <param name="position">位置</param>
-    public void AddPath(Vector3 position)
+    /// <param name="_position"></param>
+    public void AddPath(Vector3 _position)
     {
-        pathId++;
+        mPathId++;
         // AddEmptyPath(); //添加一个空路径
-        if (pathId % 2 == 0)
+        if (mPathId % 2 == 0)
         {
-            GameObject gameObject = Instantiate(path1, position, Quaternion.identity); //生成路径1
-            gameObject.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
-            pathId = 0; //归零 
+            GameObject generatePath = Instantiate(Path1, _position, Quaternion.identity); //生成路径1
+            generatePath.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
+            mPathId = 0; //归零 
         }
         else
         {
-            GameObject gameObject = Instantiate(path2, position, Quaternion.identity); //生成路径2
-            gameObject.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
+            GameObject generatePath = Instantiate(Path2, _position, Quaternion.identity); //生成路径2
+            generatePath.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
         }
     }
 
     /// <summary>
-    /// 添加一个特效path
+    /// 生成一个特效路径
     /// </summary>
-    public void AddSkillPath(Vector3 position)
+    /// <param name="_position">位置</param>
+    public void AddSkillPath(Vector3 _position)
     {
-        GameObject gameObject = Instantiate(path3, position, Quaternion.identity); //生成路径1
-        gameObject.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
+        GameObject generatePath = Instantiate(Path3, _position, Quaternion.identity); //生成路径1
+        generatePath.transform.parent = transform.GetChild(transform.childCount - 1); //添加到它最后一个孩子身上
     }
 }

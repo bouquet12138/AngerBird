@@ -25,6 +25,11 @@ TextureImporter:
     21300040: FONT_BASIC_20
     21300042: FONT_BASIC_21
     21300044: FONT_BASIC_22
+    21300046: FONT_BASIC_23
+    21300048: FONT_BASIC_24
+    21300050: FONT_BASIC_25
+    21300052: FONT_BASIC_26
+    21300054: FONT_BASIC_27
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -573,6 +578,106 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d0b64d851b23a684190e166cdf0f41f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_BASIC_23
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 422
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1d4ea998b54b3478e024c1f633fa62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_BASIC_24
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 32
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581e9f1155f8cf447b4ac35c6b0b90ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_BASIC_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 62
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a623527b779ca96409029a17af18c6fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_BASIC_26
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 332
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baddb9154229fd4b9f76e6f91981492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_BASIC_27
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 280
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a388620dc51b9044cbf2969770a271ff
       vertices: []
       indices: 
       edges: []

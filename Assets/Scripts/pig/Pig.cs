@@ -24,7 +24,7 @@ public class Pig : MonoBehaviour
     {
         pigAnim = GetComponent<PigAnim>();
 
-        for (int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < 3; i++)
         {
             transform.GetChild(i).gameObject.SetActive(i == 0);
         }
@@ -47,11 +47,11 @@ public class Pig : MonoBehaviour
             switch (blood)
             {
                 case 2:
-                    for (int i = 0; i < transform.childCount; i++)
+                    for (int i = 0; i < 3; i++)
                         transform.GetChild(i).gameObject.SetActive(i == 1);
                     break;
                 case 1:
-                    for (int i = 0; i < transform.childCount; i++)
+                    for (int i = 0; i < 3; i++)
                         transform.GetChild(i).gameObject.SetActive(i == 2);
 
                     AudioUtil.sInstance.AudioPlay(hurtAudio, transform.position); //播放受伤的音效
@@ -86,5 +86,6 @@ public class Pig : MonoBehaviour
         Instantiate(boom, transform.position, Quaternion.identity); //生成爆炸效果
         Instantiate(score, transform.position, Quaternion.identity); //生成加分效果
         Destroy(gameObject); //销毁自己
+        GameManager.sInstance.IsSuccess(); //判断是否胜利
     }
 }

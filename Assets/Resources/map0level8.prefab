@@ -36,7 +36,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4606605982261164}
-  - component: {fileID: 114461190724455954}
   m_Layer: 0
   m_Name: games
   m_TagString: Untagged
@@ -4680,6 +4679,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   cloneBlueBirdPrefab: {fileID: 114458692831864234, guid: 41cf6c9dbc765d542abbab0381d01a01,
     type: 2}
@@ -4709,6 +4709,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   skillAudio: {fileID: 8300000, guid: 5b70f9f1580c6a94da81369a2a64dec7, type: 3}
 --- !u!114 &114118132419004820
@@ -4768,9 +4769,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c5ae33243a0e84bbcb50ed86cf7bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
-  path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
-  path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
+  Path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
+  Path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
+  Path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
 --- !u!114 &114182810642217572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4797,6 +4798,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   skillAudio: {fileID: 8300000, guid: 5b70f9f1580c6a94da81369a2a64dec7, type: 3}
 --- !u!114 &114210930518350654
@@ -5149,6 +5151,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   cloneBlueBirdPrefab: {fileID: 114458692831864234, guid: 41cf6c9dbc765d542abbab0381d01a01,
     type: 2}
@@ -5217,18 +5220,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 68444f6568cd58f4a8811fa6cf259fbd, type: 3}
   - {fileID: 8300000, guid: a26cbbc901d60454aa55c848552118e3, type: 3}
   - {fileID: 8300000, guid: 930b994ea7f0e124ca7ef52df1c1a51d, type: 3}
---- !u!114 &114461190724455954
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1011287817308628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c59c024240259458de81aa51912372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveX: 0
 --- !u!114 &114463261813819968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5299,6 +5290,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   skillAudio: {fileID: 8300000, guid: 5b70f9f1580c6a94da81369a2a64dec7, type: 3}
 --- !u!114 &114487584079243904
@@ -5874,6 +5866,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   skillAudio: {fileID: 8300000, guid: 5b70f9f1580c6a94da81369a2a64dec7, type: 3}
 --- !u!114 &114943911010821376

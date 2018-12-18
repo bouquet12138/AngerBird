@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AsyncLoading.cs" t="Include" />
           <e p="base" t="Include">
             <e p="BackGroundColor.cs" t="Include" />
             <e p="BackGroundMusic.cs" t="Include" />
@@ -75,6 +76,7 @@
           <e p="ui" t="Include">
             <e p="MyUI.cs" t="Include" />
             <e p="PercentUi.cs" t="Include" />
+            <e p="YPercentUi.cs" t="Include" />
           </e>
           <e p="utils" t="Include">
             <e p="AudioUtil.cs" t="Include" />

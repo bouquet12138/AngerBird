@@ -108,7 +108,6 @@ public class GameManager : MonoBehaviour
 
         if (birds.Count > 0)
         {
-            print("GameManager 移除第一只小鸟 ");
             birds.RemoveAt(0); //移除第一只小鸟
         }
 
@@ -126,9 +125,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            gameIsOver = true; //游戏结束
-            AudioUtil.sInstance.AudioPlay(birdWinAudio); //播放小鸟胜利音乐
-            StartCoroutine("ShowBird"); //开启协程
+            Win(); //游戏胜利
         }
     }
 
@@ -141,13 +138,23 @@ public class GameManager : MonoBehaviour
         {
             if (pigs.Count <= 0)
             {
-                gameIsOver = true; //游戏结束
-                AudioUtil.sInstance.AudioPlay(birdWinAudio); //播放小鸟胜利音乐
-                StartCoroutine("ShowBird"); //开启协程
+                if (birds.Count > 0 && birds[0].IsIdle())
+                {
+                    Win();
+                }
             }
         }
     }
 
+    /// <summary>
+    /// 胜利的效果
+    /// </summary>
+    private void Win()
+    {
+        gameIsOver = true; //游戏结束
+        AudioUtil.sInstance.AudioPlay(birdWinAudio); //播放小鸟胜利音乐
+        StartCoroutine("ShowBird"); //开启协程
+    }
 
     /// <summary>
     /// 展示小鸟
@@ -157,7 +164,6 @@ public class GameManager : MonoBehaviour
     {
         if (birds.Count > 0)
         {
-            birds[0].transform.position = originPos; //设置一下位置
             birds[0].enabled = true; //可用
 
             for (int i = 0; i < birds.Count; i++)

@@ -36,8 +36,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1122544887563000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2856212, y: -0.34, z: 0.07027924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.52168745, y: 0.41888165, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -104,7 +104,7 @@ MonoBehaviour:
   boom: {fileID: 1776975591950288, guid: 09e6238ed1d933a4a9711e280293eafa, type: 2}
   score: {fileID: 1578492597525708, guid: 000733d27cc92e144a0a8feb39fc4aef, type: 2}
   addScore: 8000
-  collision1Sprite: {fileID: 21300230, guid: 1ee2adf5069ae144eab9743209c66c9f, type: 3}
+  collision1Sprite: {fileID: 21300214, guid: 1ee2adf5069ae144eab9743209c66c9f, type: 3}
   collision2Sprite: {fileID: 21300216, guid: 1ee2adf5069ae144eab9743209c66c9f, type: 3}
   collisionAudios:
   - {fileID: 8300000, guid: d33b015d851c72d4e97789251f91c01f, type: 3}

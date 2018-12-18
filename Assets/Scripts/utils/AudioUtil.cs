@@ -9,25 +9,21 @@ public class AudioUtil : MonoBehaviour
     [HideInInspector] public bool hasVoice;
 
 
-    private void Start()
+    private void Awake()
     {
         sInstance = this; //单例模式
 
         audioSource = GetComponent<AudioSource>();
+    }
 
+    private void Start()
+    {
         hasVoice = PlayerPrefUtil.isVoice();
 
         if (!hasVoice)
             audioSource.Stop(); //停止播放音乐
         else
             audioSource.Play(); //播放音乐
-    }
-
-    /// <summary>
-    /// 工具类构造器私有
-    /// </summary>
-    private AudioUtil()
-    {
     }
 
     /// <summary>
