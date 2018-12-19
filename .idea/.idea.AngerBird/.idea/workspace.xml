@@ -5,7 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/varia/BalloonGroup.cs" line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93cd2c6b-d061-4f61-9005-72256719989e" name="Default Changelist" comment="" />
+    <list default="true" id="93cd2c6b-d061-4f61-9005-72256719989e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AngerBird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngerBird/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
     <session id="-1929688637">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="2" />
@@ -98,30 +100,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/birds/BlackBird.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+            <state relative-caret-position="121">
+              <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
               <folding>
-                <marker date="1544361266109" expanded="false" signature="6:52" ph="..." />
-                <marker date="1544361266109" expanded="true" signature="83:5047" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="428:474" ph="/// 重写虚方法 ... " />
-                <marker date="1544361266109" expanded="true" signature="514:1066" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="1072:1155" ph="/* 碰撞器进入 ... */" />
-                <marker date="1544361266109" expanded="true" signature="1160:2450" ph="/* 触发器离开 ... */" />
-                <marker date="1544361266109" expanded="true" signature="2456:2566" ph="/// 该清除的清除 ... " />
-                <marker date="1544361266109" expanded="true" signature="2593:2997" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="3003:3054" ph="/// 重写飞行结束后的方法 ... " />
-                <marker date="1544361266109" expanded="true" signature="3092:3972" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="3119:3901" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="3914:3966" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="3978:4024" ph="/// 下一只小鸟 ... " />
-                <marker date="1544361266109" expanded="true" signature="4052:4196" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="4202:4250" ph="/// 让猪 木板爆炸 ... " />
-                <marker date="1544361266109" expanded="true" signature="4277:4601" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="4331:4442" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="4493:4595" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="4668:5045" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="4722:4998" ph="{...}" />
-                <marker date="1544361266109" expanded="true" signature="4883:4988" ph="{...}" />
+                <marker date="1544361274797" expanded="false" signature="6:52" ph="..." />
+                <marker date="1544361274797" expanded="true" signature="83:5012" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="428:474" ph="/// 重写虚方法 ... " />
+                <marker date="1544361274797" expanded="true" signature="514:1066" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="1072:1155" ph="/* 碰撞器进入 ... */" />
+                <marker date="1544361274797" expanded="true" signature="1160:2450" ph="/* 触发器离开 ... */" />
+                <marker date="1544361274797" expanded="true" signature="2456:2566" ph="/// 该清除的清除 ... " />
+                <marker date="1544361274797" expanded="true" signature="2593:2997" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="3003:3054" ph="/// 重写飞行结束后的方法 ... " />
+                <marker date="1544361274797" expanded="true" signature="3092:3937" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="3119:3866" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="3879:3931" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="3943:3989" ph="/// 下一只小鸟 ... " />
+                <marker date="1544361274797" expanded="true" signature="4017:4161" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="4167:4215" ph="/// 让猪 木板爆炸 ... " />
+                <marker date="1544361274797" expanded="true" signature="4242:4566" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="4296:4407" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="4458:4560" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="4633:5010" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="4687:4963" ph="{...}" />
+                <marker date="1544361274797" expanded="true" signature="4848:4953" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -192,6 +194,9 @@
       <replace>procepect</replace>
       <replace>prospect</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/utils/PlayerPrefUtil.cs" root0="FORCE_HIGHLIGHTING" />
@@ -330,12 +335,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="50" />
     <option name="y" value="9" />
     <option name="width" value="1142" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -453,12 +459,12 @@
       <workItem from="1544236719721" duration="8020000" />
       <workItem from="1544325071694" duration="2059000" />
       <workItem from="1544338361097" duration="3856000" />
-      <workItem from="1544352122442" duration="8095000" />
+      <workItem from="1544352122442" duration="8698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237061000" />
+    <option name="totallyTimeSpent" value="237664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +477,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29530916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -482,7 +487,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49573562" visible="true" weight="0.21800433" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49573562" visible="true" weight="0.21824104" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -1028,30 +1033,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/birds/BlackBird.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+        <state relative-caret-position="121">
+          <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
           <folding>
-            <marker date="1544361266109" expanded="false" signature="6:52" ph="..." />
-            <marker date="1544361266109" expanded="true" signature="83:5047" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="428:474" ph="/// 重写虚方法 ... " />
-            <marker date="1544361266109" expanded="true" signature="514:1066" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="1072:1155" ph="/* 碰撞器进入 ... */" />
-            <marker date="1544361266109" expanded="true" signature="1160:2450" ph="/* 触发器离开 ... */" />
-            <marker date="1544361266109" expanded="true" signature="2456:2566" ph="/// 该清除的清除 ... " />
-            <marker date="1544361266109" expanded="true" signature="2593:2997" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="3003:3054" ph="/// 重写飞行结束后的方法 ... " />
-            <marker date="1544361266109" expanded="true" signature="3092:3972" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="3119:3901" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="3914:3966" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="3978:4024" ph="/// 下一只小鸟 ... " />
-            <marker date="1544361266109" expanded="true" signature="4052:4196" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="4202:4250" ph="/// 让猪 木板爆炸 ... " />
-            <marker date="1544361266109" expanded="true" signature="4277:4601" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="4331:4442" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="4493:4595" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="4668:5045" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="4722:4998" ph="{...}" />
-            <marker date="1544361266109" expanded="true" signature="4883:4988" ph="{...}" />
+            <marker date="1544361274797" expanded="false" signature="6:52" ph="..." />
+            <marker date="1544361274797" expanded="true" signature="83:5012" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="428:474" ph="/// 重写虚方法 ... " />
+            <marker date="1544361274797" expanded="true" signature="514:1066" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="1072:1155" ph="/* 碰撞器进入 ... */" />
+            <marker date="1544361274797" expanded="true" signature="1160:2450" ph="/* 触发器离开 ... */" />
+            <marker date="1544361274797" expanded="true" signature="2456:2566" ph="/// 该清除的清除 ... " />
+            <marker date="1544361274797" expanded="true" signature="2593:2997" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="3003:3054" ph="/// 重写飞行结束后的方法 ... " />
+            <marker date="1544361274797" expanded="true" signature="3092:3937" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="3119:3866" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="3879:3931" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="3943:3989" ph="/// 下一只小鸟 ... " />
+            <marker date="1544361274797" expanded="true" signature="4017:4161" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="4167:4215" ph="/// 让猪 木板爆炸 ... " />
+            <marker date="1544361274797" expanded="true" signature="4242:4566" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="4296:4407" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="4458:4560" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="4633:5010" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="4687:4963" ph="{...}" />
+            <marker date="1544361274797" expanded="true" signature="4848:4953" ph="{...}" />
           </folding>
         </state>
       </provider>
