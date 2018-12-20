@@ -4,5 +4,5 @@ public class GameLevelUtil
     {
     }
 
-    public static int[] sLevelNumArray = {10, 10, 10, 10, 10, 10, 10};
+    public static int[] sLevelNumArray = {11, 10, 5, 5, 5, 5, 5};
 }

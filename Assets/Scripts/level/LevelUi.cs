@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class LevelUi : MonoBehaviour
 {
-    private bool isSelected; //是否选中
+    public bool isSelected; //是否选中
     private int nowIndex; //关卡所在索引
     [HideInInspector] public int mapIndex; //它所在的地图索引
 
@@ -84,7 +84,14 @@ public class LevelUi : MonoBehaviour
         if (isSelected)
         {
             PlayerPrefUtil.SetNowLevel(nowIndex); //设置当前关卡
-            SceneLoadUtil.LoadGameScene(); //加载游戏场景
+            if (nowIndex == 0)
+            {
+                SceneLoadUtil.LoadStoreScene(); //加载故事场景
+            }
+            else
+            {
+                SceneLoadUtil.LoadGameScene(); //加载游戏场景
+            }
         }
     }
 }

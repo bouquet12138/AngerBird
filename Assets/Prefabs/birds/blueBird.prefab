@@ -110,7 +110,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 1
 --- !u!58 &58792222558601222
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -170,6 +170,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   cloneBlueBirdPrefab: {fileID: 114458692831864234, guid: 41cf6c9dbc765d542abbab0381d01a01,
     type: 2}

@@ -697,7 +697,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4307543016351858}
-  - component: {fileID: 114088235945690222}
   m_Layer: 0
   m_Name: games
   m_TagString: Untagged
@@ -2392,18 +2391,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smileAudio: {fileID: 8300000, guid: f6727c26c2f1dc64e8e10eb6d712979d, type: 3}
   callAudio: {fileID: 8300000, guid: 49e94c12c970d3c4e8881bc6cac45b60, type: 3}
---- !u!114 &114088235945690222
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1902566252463998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c59c024240259458de81aa51912372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveX: 0
 --- !u!114 &114112071351866836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2517,6 +2504,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114405758326254346
 MonoBehaviour:
@@ -2555,6 +2543,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114435145718333112
 MonoBehaviour:
@@ -2604,9 +2593,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c5ae33243a0e84bbcb50ed86cf7bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
-  path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
-  path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
+  Path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
+  Path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
+  Path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
 --- !u!114 &114684176654990626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2710,6 +2699,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114922142274770790
 MonoBehaviour:

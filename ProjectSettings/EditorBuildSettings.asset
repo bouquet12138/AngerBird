@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/ac_level.unity
     guid: f53726e5569d8674b99965871accb9ce
   - enabled: 1
-    path: Assets/Scenes/ad_game.unity
+    path: Assets/Scenes/ad_loading_game.unity
+    guid: f7df042de3073774994c89e6aa6235de
+  - enabled: 1
+    path: Assets/Scenes/ae_game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/af_store.unity
+    guid: 25a76cf6519ecc14d81a807185ffe657
   m_configObjects: {}

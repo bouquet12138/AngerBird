@@ -32,14 +32,14 @@ public class CloneBlueBird : MonoBehaviour
             pathId++;
             if (path != null)
             {
-                path.AddPath(pathId, transform.position); //添加路径
+                path.AddPath(transform.position); //添加路径
             }
         }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
             return;
 
         showPath = false; //不可以展示路径了

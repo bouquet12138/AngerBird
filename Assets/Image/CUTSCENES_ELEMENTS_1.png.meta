@@ -21,6 +21,11 @@ TextureImporter:
     21300032: CUTSCENES_ELEMENTS_1_16
     21300034: CUTSCENES_ELEMENTS_1_17
     21300036: CUTSCENES_ELEMENTS_1_18
+    21300038: CUTSCENES_ELEMENTS_1_19
+    21300040: CUTSCENES_ELEMENTS_1_20
+    21300042: CUTSCENES_ELEMENTS_1_21
+    21300044: CUTSCENES_ELEMENTS_1_22
+    21300046: CUTSCENES_ELEMENTS_1_23
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -137,10 +142,10 @@ TextureImporter:
       name: CUTSCENES_ELEMENTS_1_1
       rect:
         serializedVersion: 2
-        x: 371
-        y: 849
-        width: 624
-        height: 617
+        x: 367
+        y: 1060
+        width: 399
+        height: 406
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,26 +419,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CUTSCENES_ELEMENTS_1_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 774
-        height: 523
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1074705336ebee148ade072fb3ce1cf8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CUTSCENES_ELEMENTS_1_16
       rect:
         serializedVersion: 2
@@ -489,6 +474,126 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 37b50e877d6c6c7439ccdb83aabdca0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUTSCENES_ELEMENTS_1_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1215
+        width: 240
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ecf85d55005e149a7208e60d96431f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUTSCENES_ELEMENTS_1_20
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1062
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2761bd98c3ebf524d863bef5146badbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUTSCENES_ELEMENTS_1_21
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 850
+        width: 382
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2b828b7b69e5d4d9469a5584a31921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUTSCENES_ELEMENTS_1_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 619
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c5d733062d48f4cbd57ffda140457e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUTSCENES_ELEMENTS_1_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 153
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c36fa6a3f85bf449ced609079f9635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUTSCENES_ELEMENTS_1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 432
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02be24cb3cff3c47b01957e56985add
       vertices: []
       indices: 
       edges: []

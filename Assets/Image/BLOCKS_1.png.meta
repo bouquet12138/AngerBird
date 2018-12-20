@@ -195,6 +195,7 @@ TextureImporter:
     21300380: BLOCKS_1_190
     21300382: BLOCKS_1_191
     21300384: BLOCKS_1_192
+    21300386: BLOCKS_1_193
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -4143,6 +4144,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ad9f35b96bae5234fb825897796df155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLOCKS_1_193
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 828
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201a7033422ba24696c7f9a1736d1a3
       vertices: []
       indices: 
       edges: []

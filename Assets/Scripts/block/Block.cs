@@ -64,6 +64,17 @@ public class Block : MonoBehaviour
     }
 
     /// <summary>
+    /// 实时更新
+    /// </summary>
+    private void Update()
+    {
+        if (transform.position.y < -5)
+        {
+            Dead(); //木块死掉
+        }
+    }
+
+    /// <summary>
     /// 木块销毁
     /// </summary>
     public void Dead()

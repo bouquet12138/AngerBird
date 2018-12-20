@@ -2,6 +2,13 @@
 
 public class GameCursor : MonoBehaviour
 {
+    private const int NORMAL = 0;
+    private const int DOWN = 1;
+    private const int UI_NORMAL = 2;
+    private const int UI_DOWN = 3;
+
+    private int currentCursor; //当前鼠标
+
     public Texture2D uiNormalCursor; //UI图标的正常光标
     public Texture2D uiDownCursor; //UI图标的正常光标
 
@@ -18,7 +25,16 @@ public class GameCursor : MonoBehaviour
     void Awake()
     {
         sInstance = this;
-        Cursor.SetCursor(normalCursor, Vector2.zero, cm);
+        if (isUi)
+        {
+            Cursor.SetCursor(uiNormalCursor, Vector2.zero, cm); //UI 图标
+            currentCursor = NORMAL;
+        }
+        else
+        {
+            Cursor.SetCursor(normalCursor, Vector2.zero, cm); //正常图标
+            currentCursor = UI_NORMAL;
+        }
     }
 
     // Update is called once per frame
@@ -27,16 +43,40 @@ public class GameCursor : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             if (isUi)
-                Cursor.SetCursor(uiDownCursor, Vector2.zero, cm);
+            {
+                if (currentCursor != UI_NORMAL)
+                {
+                    currentCursor = UI_NORMAL;
+                    Cursor.SetCursor(uiDownCursor, Vector2.zero, cm);
+                }
+            }
             else
-                Cursor.SetCursor(downCursor, Vector2.zero, cm);
+            {
+                if (currentCursor != DOWN)
+                {
+                    currentCursor = DOWN;
+                    Cursor.SetCursor(downCursor, Vector2.zero, cm);
+                }
+            }
         }
         else
         {
             if (isUi)
-                Cursor.SetCursor(uiNormalCursor, Vector2.zero, cm);
+            {
+                if (currentCursor != UI_NORMAL)
+                {
+                    currentCursor = UI_NORMAL;
+                    Cursor.SetCursor(uiNormalCursor, Vector2.zero, cm);
+                }
+            }
             else
-                Cursor.SetCursor(normalCursor, Vector2.zero, cm);
+            {
+                if (currentCursor != NORMAL)
+                {
+                    currentCursor = NORMAL; //当前状态为正常
+                    Cursor.SetCursor(normalCursor, Vector2.zero, cm);
+                }
+            }
         }
     }
 }

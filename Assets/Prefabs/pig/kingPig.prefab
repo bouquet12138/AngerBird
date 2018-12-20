@@ -103,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1944137482431896}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -1.06, z: 0.07027924}
+  m_LocalPosition: {x: 0.01, y: -1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4114409890108918}
@@ -251,8 +251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00391780db11d2a40baa1a031c4a4012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 30
-  minSpeed: 13
+  maxSpeed: 22
+  minSpeed: 11
   boom: {fileID: 1185957535917766, guid: dcfdd5f8fe45ccf47a1d8529c04f211b, type: 2}
   score: {fileID: 1490896959923156, guid: d6f7d557d67da624388a7fdedc982655, type: 2}
   addScore: 10000

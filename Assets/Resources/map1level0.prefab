@@ -529,7 +529,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4788625918649502}
-  - component: {fileID: 114639443253517344}
   m_Layer: 0
   m_Name: games
   m_TagString: Untagged
@@ -3320,6 +3319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 5000
   addScoreObject: {fileID: 1470497052364130, guid: e45cb45dbd6100f488cdbc148ced5b65,
     type: 2}
 --- !u!114 &114165624569745104
@@ -3334,6 +3334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 5000
   addScoreObject: {fileID: 1470497052364130, guid: e45cb45dbd6100f488cdbc148ced5b65,
     type: 2}
 --- !u!114 &114200688825025212
@@ -3361,6 +3362,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114216123382782736
 MonoBehaviour:
@@ -3446,9 +3448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c5ae33243a0e84bbcb50ed86cf7bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
-  path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
-  path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
+  Path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
+  Path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
+  Path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
 --- !u!114 &114331817146898508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3461,6 +3463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 5000
   addScoreObject: {fileID: 1470497052364130, guid: e45cb45dbd6100f488cdbc148ced5b65,
     type: 2}
 --- !u!114 &114469435049108722
@@ -3656,18 +3659,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smileAudio: {fileID: 8300000, guid: 4953260d57d59554f9195f732fc96f16, type: 3}
   callAudio: {fileID: 8300000, guid: 31dd7f2499f92df42b21674066f23857, type: 3}
---- !u!114 &114639443253517344
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490171835421892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c59c024240259458de81aa51912372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveX: 0
 --- !u!114 &114640223189539756
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3756,6 +3747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 5000
   addScoreObject: {fileID: 1470497052364130, guid: e45cb45dbd6100f488cdbc148ced5b65,
     type: 2}
 --- !u!114 &114767176281289536
@@ -3835,6 +3827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 5000
   addScoreObject: {fileID: 1470497052364130, guid: e45cb45dbd6100f488cdbc148ced5b65,
     type: 2}
 --- !u!114 &114839215648470220
@@ -3925,6 +3918,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114870634660996812
 MonoBehaviour:
@@ -3951,6 +3945,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
 --- !u!114 &114872314159677000
 MonoBehaviour:

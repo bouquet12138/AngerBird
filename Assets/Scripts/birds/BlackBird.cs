@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using birds;
+using effect;
 using UnityEngine;
 
 public class BlackBird : Bird
@@ -20,6 +22,7 @@ public class BlackBird : Bird
     protected override void ShowSkill()
     {
         base.ShowSkill();
+        CameraVary.sInstance.BirdUse = false; //小鸟不使用了
         isBoom = true; //爆炸了
         path.AddSkillPath(transform.position); //添加一个特效
         AudioUtil.sInstance.AudioPlay(explosionClip, transform.position); //播放爆炸音效
@@ -27,64 +30,21 @@ public class BlackBird : Bird
         Instantiate(blackBoom, transform.position, Quaternion.identity); //生成一个碰撞特效
         BoomPig();
         OnClear();
-        bomb.targetRadius = 4f;
-        bomb.targetRadius = 0.5f;
+        bomb.TargetRadius = 3; //目标尺寸
+        bomb.Power = 8; //炸弹力量
+        bomb.MaxSpeed = 30; //最大速度
         Instantiate(bomb, transform.position, Quaternion.identity); //生成一个爆炸效果
     }
 
-    /// <summary>
-    /// 碰撞器进入
-    /// </summary>
-    /// <param name="other"></param>
-    /*private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "enemy") //如果是敌军
-        {
-            if (other.gameObject.GetComponent<Pig>() != null)
-            {
-                if (!pigList.Contains(other.gameObject.GetComponent<Pig>()))
-                {
-                    pigList.Add(other.gameObject.GetComponent<Pig>()); //将猪加进来
-                }
-            }
-            else if (other.gameObject.GetComponent<Block>() != null)
-            {
-                if (!blockList.Contains(other.gameObject.GetComponent<Block>()))
-                {
-                    blockList.Add(other.gameObject.GetComponent<Block>()); //将木块添加进来
-                }
-            }
-        }
-    }
-
-    /// <summary>
-    /// 触发器离开
-    /// </summary>
-    /// <param name="other"></param>
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "enemy") //如果是敌军
-        {
-            if (other.gameObject.GetComponent<Pig>() != null)
-            {
-                pigList.Remove(other.gameObject.GetComponent<Pig>()); //将猪移除去
-            }
-            else if (other.gameObject.GetComponent<Block>() != null)
-            {
-                blockList.Remove(other.gameObject.GetComponent<Block>()); //将木块移出去
-            }
-        }
-    }*/
 
     /// <summary>
     /// 该清除的清除
     /// </summary>
-    /// <exception cref="NotImplementedException"></exception>
     private void OnClear()
     {
         rigidBody2D.velocity = Vector2.zero; //速度归零
         Instantiate(boom, transform.position, Quaternion.identity); //生成爆炸效果
-        showPath = false; //不再展示路径
+        CurrentState = BIRD_COLLIDER; //当前状态改为 小鸟已碰撞
         Collider2D[] collider2Ds = GetComponents<Collider2D>(); //碰撞体
 
         for (int i = 0; i < collider2Ds.Length; i++)
@@ -104,8 +64,9 @@ public class BlackBird : Bird
             Instantiate(boom, transform.position, Quaternion.identity); //生成爆炸效果
             AudioUtil.sInstance.AudioPlay(explosionClip, transform.position); //播放爆炸音效
             BoomPig();
-            bomb.targetRadius = 1.5f;
-            bomb.targetRadius = 0.5f;
+            bomb.TargetRadius = 1.5f; //目标尺寸
+            bomb.Power = 5; //炸弹力量
+            bomb.MaxSpeed = 20; //最大速度
 
             Collider2D[] collider2Ds = GetComponents<Collider2D>(); //碰撞体
 
@@ -149,20 +110,5 @@ public class BlackBird : Bird
             if (blockList[i] != null)
                 blockList[i].Dead(); //木板毁灭
         }
-    }
-
-    protected override void OnCollisionEnter2D(Collision2D other)
-    {
-        if (canShowSkill && !isBoom) //如果可以展示技能
-        {
-            CircleCollider2D[] collider2Ds = GetComponents<CircleCollider2D>(); //碰撞体
-
-            if (collider2Ds != null && collider2Ds.Length != 0)
-            {
-                collider2Ds[0].radius = collider2Ds[0].radius * 0.6f; //半径变小
-            }
-        }
-
-        base.OnCollisionEnter2D(other);
     }
 }

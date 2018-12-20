@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using birds;
+using UnityEngine;
 
 public class GreenBird : Bird
 {

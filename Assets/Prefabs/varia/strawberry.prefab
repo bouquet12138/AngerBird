@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212985791053251600}
   - component: {fileID: 70797435383334222}
   - component: {fileID: 50702949417520610}
+  - component: {fileID: 114183837921865484}
   m_Layer: 0
   m_Name: strawberry
   m_TagString: Untagged
@@ -77,6 +78,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.44, y: 0.51}
   m_Direction: 0
+--- !u!114 &114183837921865484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928494702115574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40738a00ec4df1248978f6cc70077a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemClip: {fileID: 8300000, guid: aa86d723da3a4144e95a14cc0b31c1a3, type: 3}
+  addScore: 3000
+  addScoreObject: {fileID: 1733058843066966, guid: 433a405bc1b73d64888ea7de9c97dc06,
+    type: 2}
 --- !u!212 &212985791053251600
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -111,7 +127,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300160, guid: 1ee2adf5069ae144eab9743209c66c9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

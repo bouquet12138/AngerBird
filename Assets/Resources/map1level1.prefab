@@ -705,7 +705,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4439924543854266}
-  - component: {fileID: 114200954500502954}
   m_Layer: 0
   m_Name: games
   m_TagString: Untagged
@@ -4842,9 +4841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c5ae33243a0e84bbcb50ed86cf7bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
-  path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
-  path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
+  Path1: {fileID: 1584113072693172, guid: 7bf05f9288691be41a8a9e46c29b7c80, type: 2}
+  Path2: {fileID: 1887189925715794, guid: 13956ffaefd537540950556ce2a08257, type: 2}
+  Path3: {fileID: 1166045340356060, guid: 692b913147ae8a146b3961016e3d3b1e, type: 2}
 --- !u!114 &114021118164026442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4994,18 +4993,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b55019f24c2290f488d199df89ee589b, type: 3}
   - {fileID: 8300000, guid: f6f4cf49156a7a94687349955af0bb48, type: 3}
   - {fileID: 8300000, guid: 17acb6f0113923749a130cf7089202c8, type: 3}
---- !u!114 &114200954500502954
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1492666573216398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c59c024240259458de81aa51912372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveX: 0
 --- !u!114 &114200990982649538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5172,6 +5159,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   cloneBlueBirdPrefab: {fileID: 114458692831864234, guid: 41cf6c9dbc765d542abbab0381d01a01,
     type: 2}
@@ -5392,6 +5380,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   cloneBlueBirdPrefab: {fileID: 114458692831864234, guid: 41cf6c9dbc765d542abbab0381d01a01,
     type: 2}
@@ -5548,6 +5537,7 @@ MonoBehaviour:
   destroyAudio: {fileID: 8300000, guid: 5df4942dfd55855498af5298a8a42c43, type: 3}
   springJoint2D: {fileID: 0}
   rigidBody2D: {fileID: 0}
+  TriggerCollider: {fileID: 0}
   maxDis: 1.5
   cloneBlueBirdPrefab: {fileID: 114458692831864234, guid: 41cf6c9dbc765d542abbab0381d01a01,
     type: 2}
@@ -6650,7 +6640,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6788,7 +6778,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7524,7 +7514,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7570,7 +7560,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7938,7 +7928,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7984,7 +7974,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8674,7 +8664,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8996,7 +8986,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9088,7 +9078,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
+  m_Sprite: {fileID: 21300002, guid: fafd3e11cbc688942a6fd902335ca952, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
